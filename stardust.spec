@@ -3,12 +3,12 @@
 Summary:	3D space flight simulator
 Summary(pl):	Trójwymiarowy symulator lotów kosmicznych
 Name:		stardust
-Version:	0.1.11
-Release:	0.1
+Version:	0.1.12
+Release:	1
 License:	GPL	
 Group:		X11/Applications/Games
 Source0:	http://download.gna.org/stardust/%{name}-%{version}.tar.gz
-# Source0-md5:	c132c3bf7ff95fd763790c1105c4eb6e
+# Source0-md5:	995474d9fb2461cb8882689719e1f62a
 URL:		https://gna.org/projects/stardust/
 BuildRequires:	SDL-devel
 BuildRequires:	STLport-devel
