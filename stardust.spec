@@ -1,5 +1,7 @@
-Summary:	-
-Summary(pl):	-
+# ToDo:
+# - verify BuildRequires (I used quick'n'dirty script for that)
+Summary:	3D space flight simulator
+Summary(pl):	Trójwymiarowy symulator lotów kosmicznych
 Name:		stardust
 Version:	0.1.10
 Release:	0.1
@@ -8,20 +10,29 @@ Group:		X11/Applications/Games
 Source0:	http://download.gna.org/stardust/%{name}-%{version}.tar.gz
 # Source0-md5:	2b064ec153bb384e914ffe7362648f3e
 URL:		https://gna.org/projects/stardust/
+BuildRequires:	SDL-devel
+BuildRequires:	STLport-devel
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	glib2-devel
+BuildRequires:	wxWindows-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-The goal of Stardust is to create a 3D space flight simulator. It is portable and expandable, and it simulates the kinematics of space flight.
+The goal of Stardust is to create a 3D space flight simulator. It is
+portable and expandable, and it simulates the kinematics of space
+flight.
 
 %description -l pl
+Celem projektu Stardust jest stworzenie trójwymiarowego symulatora lotów
+kosmicznych. Jest on przeno¶ny i ³atwo rozszeralny, oraz symuluje
+kinematykê lotów kosmicznych.
 
 %prep
 %setup -q
 
 %build
-# if ac/am/* rebuilding is necessary, do it in this order and add
-# appropriate BuildRequires
-glib-gettextize
+glib-gettextize --copy --force
 %{__aclocal}
 %{__autoconf}
 %{__autoheader}
