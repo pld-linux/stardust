@@ -25,7 +25,7 @@ flight.
 
 %description -l pl
 Celem projektu Stardust jest stworzenie trójwymiarowego symulatora lotów
-kosmicznych. Jest on przeno¶ny i ³atwo rozszeralny, oraz symuluje
+kosmicznych. Jest on przeno¶ny i ³atwo rozszerzalny, oraz symuluje
 kinematykê lotów kosmicznych.
 
 %prep
