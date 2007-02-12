@@ -1,7 +1,7 @@
 # ToDo:
 # - verify BuildRequires (I used quick'n'dirty script for that)
 Summary:	3D space flight simulator
-Summary(pl):	Trójwymiarowy symulator lotów kosmicznych
+Summary(pl.UTF-8):   TrÃ³jwymiarowy symulator lotÃ³w kosmicznych
 Name:		stardust
 Version:	0.1.12
 Release:	1
@@ -23,10 +23,10 @@ The goal of Stardust is to create a 3D space flight simulator. It is
 portable and expandable, and it simulates the kinematics of space
 flight.
 
-%description -l pl
-Celem projektu Stardust jest stworzenie trójwymiarowego symulatora lotów
-kosmicznych. Jest on przeno¶ny i ³atwo rozszerzalny, oraz symuluje
-kinematykê lotów kosmicznych.
+%description -l pl.UTF-8
+Celem projektu Stardust jest stworzenie trÃ³jwymiarowego symulatora lotÃ³w
+kosmicznych. Jest on przenoÅ›ny i Å‚atwo rozszerzalny, oraz symuluje
+kinematykÄ™ lotÃ³w kosmicznych.
 
 %prep
 %setup -q
