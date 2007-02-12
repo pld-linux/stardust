@@ -1,7 +1,7 @@
 # ToDo:
 # - verify BuildRequires (I used quick'n'dirty script for that)
 Summary:	3D space flight simulator
-Summary(pl.UTF-8):   Trójwymiarowy symulator lotów kosmicznych
+Summary(pl.UTF-8):	Trójwymiarowy symulator lotów kosmicznych
 Name:		stardust
 Version:	0.1.12
 Release:	1
